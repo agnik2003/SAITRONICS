@@ -1,0 +1,59 @@
+# ============================================
+# SAITRONICS WORKSPACE ROOT - .gitignore
+# ============================================
+
+# 1. Dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 2. Build Outputs & Caches
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+.turbo/
+**/.turbo/
+
+# 3. Environment & Secrets
+.env
+.env*.local
+.env.local
+**/.env
+**/.env*.local
+**/.env.local
+*.pem
+*.key
+
+# 4. TypeScript & Linters
+*.tsbuildinfo
+**/*.tsbuildinfo
+next-env.d.ts
+**/.eslintcache
+
+# 5. OS Junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 6. IDEs & Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.bak
+
+# 7. Hosting & Cloud
+.vercel/
+**/.vercel/
+
+# Project documentation - excluded from GitHub
+PROJECT SCOPE SAITRONICS.pdf
